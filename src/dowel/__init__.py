@@ -8,6 +8,7 @@ from dowel.simple_outputs import StdOutput, TextOutput
 from dowel.tabular_input import TabularInput
 from dowel.csv_output import CsvOutput  # noqa: I100
 from dowel.tensor_board_output import TensorBoardOutput
+from dowel.wandb_output import WandbOutput
 
 logger = Logger()
 tabular = TabularInput()
@@ -22,6 +23,7 @@ __all__ = [
     'LoggerWarning',
     'TabularInput',
     'TensorBoardOutput',
+    'WandbOutput',
     'logger',
     'tabular',
 ]
